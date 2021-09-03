@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.col-haft {
+    width: 50%;
+    float: left;
+    padding: 0 12px 16px 0;
+}
+
+.col-third {
+    width: 33.33333%;
+    float: left;
+    padding: 0 8px;
+}
+
+.p-32 {
+    padding: 32px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.p-4-8 {
+    padding: 4px 8px;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.hover-black:hover {
+    background-color: #000 !important;
+}
+
+.br-grey {
+    background-color: #616161!important;
+}
+
+.br-red {
+    background-color: #f44336!important;
+}
+
+
+/*NAV*/
+
+nav {
+    position: fixed;
+    padding: 8px 32px;
+    width: 300px;
+    height: 100%;
+    color: #fff !important;
+    background-color: #f44336;
+}
+
+nav #nav-header {
+    font-size: 32px;
+    padding: 64px 16px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 8px 16px;
+}
+
+nav ul li:hover {
+    background-color: #fff;
+}
+
+nav ul li:hover a {
+    color: #000;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/*CONTENT*/
+
+#content {
+    margin-left: 340px;
+    margin-right: 40px;
+}
+
+#content header {
+    font-size: 2em;
+    padding-top: 80px;
+}
+
+section {
+    padding-bottom: 64px;
+    overflow: hidden;
+}
+
+section p {
+    margin: 16px 0;
+}
+
+section .content-heading {
+    font-size: 2em;
+    color: #f44336;
+    padding-bottom: 32px;
+}
+
+section img {
+    opacity: 0.8;
+}
+
+section img:hover {
+    opacity: 1;
+}
+
+
+/*CONTENT-Designers*/
+
+.designer-item .designers-dsr {
+    background-color: #ddd;
+    padding-bottom: 8px;
+}
+
+
+/*CONTENT-Packages*/
+
+.prices-table ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #eee;
+}
+
+.prices-table ul li {
+    border-bottom: 1px solid #ccc;
+}
+
+.prices-table .sign-up {
+    border: none;
+    padding: 16px 32px;
+}
+
+.form-control {
+    margin: 16px 0;
+}
+
+footer {
+    height: 100px;
+    background-color: #f1f1f1;
+    margin-left: 300px;
+    padding-right: 40px;
+    line-height: 100px;
+    text-align: right;
+}

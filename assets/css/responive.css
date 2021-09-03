@@ -1,0 +1,43 @@
+@media(min-width: 1024px) {
+    #m-menu,
+    .close-menu {
+        display: none !important;
+    }
+}
+
+@media(max-width: 1023px) {
+    #m-menu {
+        position: fixed;
+        width: 100%;
+        height: 64px;
+        background-color: #f44336;
+    }
+    #m-menu .menu-icon {
+        font-size: 40px;
+        font-style: normal;
+    }
+    #m-menu h2 {
+        display: inline-block;
+    }
+    nav {
+        width: 250px;
+        display: none;
+    }
+    #content {
+        margin: 0;
+        padding: 0 20px;
+    }
+    footer {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media(min-width: 740px) and (max-width: 1023px) {}
+
+@media(max-width:740px) {
+    .m-col-full {
+        width: 100%;
+    }
+}
